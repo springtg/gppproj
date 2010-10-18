@@ -668,10 +668,6 @@
       <DependentUpon>frmLoaiHH.cs</DependentUpon>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="QuanLy\frmKhuyenMai.resx">
-      <DependentUpon>frmKhuyenMai.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
     <EmbeddedResource Include="QuanLy\frmDonvi.resx">
       <DependentUpon>frmDonvi.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -711,30 +707,6 @@
     <EmbeddedResource Include="QuanLy\fromNhomKH.resx">
       <DependentUpon>fromNhomKH.cs</DependentUpon>
       <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ThuChi\frmCongNo.resx">
-      <DependentUpon>frmCongNo.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ThuChi\rptPhieuChi.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>rptPhieuChi.cs</LastGenOutput>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ThuChi\frmPhieuChi.resx">
-      <DependentUpon>frmPhieuChi.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ThuChi\frmXuatKho.resx">
-      <DependentUpon>frmXuatKho.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ThuChi\frmrptThu.resx">
-      <DependentUpon>frmrptThu.cs</DependentUpon>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="ThuChi\rptPhieuThu.rpt">
-      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
-      <LastGenOutput>rptPhieuThu.cs</LastGenOutput>
     </EmbeddedResource>
     <EmbeddedResource Include="TRIAL\FilterControls\UserControl1.resx">
       <SubType>Designer</SubType>
@@ -795,12 +767,6 @@
     </Compile>
     <Compile Include="QuanLy\frmLoaiHH.Designer.cs">
       <DependentUpon>frmLoaiHH.cs</DependentUpon>
-    </Compile>
-    <Compile Include="QuanLy\frmKhuyenMai.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="QuanLy\frmKhuyenMai.designer.cs">
-      <DependentUpon>frmKhuyenMai.cs</DependentUpon>
     </Compile>
     <Compile Include="QuanLy\frmDonvi.cs">
       <SubType>Form</SubType>
@@ -873,73 +839,6 @@
     <Compile Include="QuanLy\Info\NhomKHInfo.cs" />
     <Compile Include="QuanLy\Info\QuyCachInfo.cs" />
     <Compile Include="QuanLy\Info\TonkhoInfo.cs" />
-    <Compile Include="ThuChi\BLL\TrptChi.cs" />
-    <Compile Include="ThuChi\BLL\TPhieuChi.cs" />
-    <Compile Include="ThuChi\BLL\TPhieuThu.cs" />
-    <Compile Include="ThuChi\BLL\TrptThu.cs" />
-    <Compile Include="ThuChi\frmCongNo.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ThuChi\frmCongNo.Designer.cs">
-      <DependentUpon>frmCongNo.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ThuChi\rptPhieuChi.cs">
-      <DependentUpon>rptPhieuChi.rpt</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <SubType>Component</SubType>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <Compile Include="ThuChi\DS\dsChi.cs">
-      <DependentUpon>dsChi.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="ThuChi\DS\dsChi.Designer.cs">
-      <DependentUpon>dsChi.xsd</DependentUpon>
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-    </Compile>
-    <Compile Include="ThuChi\frmPhieuChi.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ThuChi\frmPhieuChi.Designer.cs">
-      <DependentUpon>frmPhieuChi.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ThuChi\DS\dsThu.cs">
-      <DependentUpon>dsThu.xsd</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="ThuChi\DS\dsThu.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>dsThu.xsd</DependentUpon>
-    </Compile>
-    <Compile Include="ThuChi\frmrptThu.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ThuChi\frmrptThu.Designer.cs">
-      <DependentUpon>frmrptThu.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ThuChi\Info\CTPHIEUCHI.cs" />
-    <Compile Include="ThuChi\Info\PhieuChi.cs" />
-    <Compile Include="ThuChi\Info\CTPHIEUTHU.cs" />
-    <Compile Include="ThuChi\Info\PhieuThu.cs" />
-    <Compile Include="ThuChi\ListDemo.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="ThuChi\frmXuatKho.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ThuChi\frmXuatKho.Designer.cs">
-      <DependentUpon>frmXuatKho.cs</DependentUpon>
-    </Compile>
-    <Compile Include="ThuChi\rptPhieuThu.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>rptPhieuThu.rpt</DependentUpon>
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="ThuChi\TListView.cs">
-      <SubType>Component</SubType>
-    </Compile>
     <Compile Include="TRIAL\FilterControls\FilterTextBox.cs">
       <SubType>Component</SubType>
     </Compile>
@@ -1162,28 +1061,6 @@
     <None Include="Resources\quick_restart16.png" />
     <None Include="Resources\KC1.png" />
     <None Include="Resources\KC.png" />
-    <None Include="ThuChi\DS\dsChi.xsc">
-      <DependentUpon>dsChi.xsd</DependentUpon>
-    </None>
-    <None Include="ThuChi\DS\dsChi.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>dsChi.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="ThuChi\DS\dsChi.xss">
-      <DependentUpon>dsChi.xsd</DependentUpon>
-    </None>
-    <None Include="ThuChi\DS\dsThu.xsc">
-      <DependentUpon>dsThu.xsd</DependentUpon>
-    </None>
-    <None Include="ThuChi\DS\dsThu.xsd">
-      <SubType>Designer</SubType>
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>dsThu.Designer.cs</LastGenOutput>
-    </None>
-    <None Include="ThuChi\DS\dsThu.xss">
-      <DependentUpon>dsThu.xsd</DependentUpon>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
@@ -1219,7 +1096,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="NhanVien\DLL\" />
-    <Folder Include="ThuChi\DLL\" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="stdole">

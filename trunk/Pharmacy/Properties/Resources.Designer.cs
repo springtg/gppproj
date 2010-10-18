@@ -60,34 +60,6 @@ namespace Pharmacy.Properties {
             }
         }
         
-        internal static System.Drawing.Bitmap _1 {
-            get {
-                object obj = ResourceManager.GetObject("+1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap _2new_copy {
-            get {
-                object obj = ResourceManager.GetObject("_2new_copy", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap _4992_ {
-            get {
-                object obj = ResourceManager.GetObject("(4992)", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap _7112 {
-            get {
-                object obj = ResourceManager.GetObject("7112", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
         internal static System.Drawing.Bitmap cauvonglogin2 {
             get {
                 object obj = ResourceManager.GetObject("cauvonglogin2", resourceCulture);
@@ -95,72 +67,9 @@ namespace Pharmacy.Properties {
             }
         }
         
-        internal static System.Drawing.Bitmap chi {
-            get {
-                object obj = ResourceManager.GetObject("chi", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap Congno {
-            get {
-                object obj = ResourceManager.GetObject("Congno", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap filemgmt {
-            get {
-                object obj = ResourceManager.GetObject("filemgmt", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
         internal static System.Drawing.Bitmap find {
             get {
                 object obj = ResourceManager.GetObject("find", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap GIAO_DIEN_CAU_VONG {
-            get {
-                object obj = ResourceManager.GetObject("GIAO DIEN CAU VONG", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap home_48 {
-            get {
-                object obj = ResourceManager.GetObject("home_48", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap KC {
-            get {
-                object obj = ResourceManager.GetObject("KC", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap KC1 {
-            get {
-                object obj = ResourceManager.GetObject("KC1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap Login_Icon32 {
-            get {
-                object obj = ResourceManager.GetObject("Login_Icon32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap logo {
-            get {
-                object obj = ResourceManager.GetObject("logo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -200,107 +109,9 @@ namespace Pharmacy.Properties {
             }
         }
         
-        internal static System.Drawing.Bitmap NCC1 {
-            get {
-                object obj = ResourceManager.GetObject("NCC1", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap NEN_NS {
-            get {
-                object obj = ResourceManager.GetObject("NEN NS", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap networkexplorer_dll_I006b_0409 {
-            get {
-                object obj = ResourceManager.GetObject("networkexplorer.dll_I006b_0409", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap NSX {
-            get {
-                object obj = ResourceManager.GetObject("NSX", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap Nut {
-            get {
-                object obj = ResourceManager.GetObject("Nut", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap oobefldr_dll_I0004_0409 {
-            get {
-                object obj = ResourceManager.GetObject("oobefldr.dll_I0004_0409", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap PM_NEWSUN {
-            get {
-                object obj = ResourceManager.GetObject("PM NEWSUN", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap quick_restart16 {
-            get {
-                object obj = ResourceManager.GetObject("quick_restart16", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap save {
-            get {
-                object obj = ResourceManager.GetObject("save", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap seting {
-            get {
-                object obj = ResourceManager.GetObject("seting", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap stop32 {
-            get {
-                object obj = ResourceManager.GetObject("stop32", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
         internal static System.Drawing.Bitmap tev {
             get {
                 object obj = ResourceManager.GetObject("tev", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap tevNhap {
-            get {
-                object obj = ResourceManager.GetObject("tevNhap", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap tevx {
-            get {
-                object obj = ResourceManager.GetObject("tevx", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap Thu {
-            get {
-                object obj = ResourceManager.GetObject("Thu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

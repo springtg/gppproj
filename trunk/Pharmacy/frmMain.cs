@@ -25,7 +25,6 @@ namespace Pharmacy
         public void HideTab() {
             tab1.Visible = false;
             tab2.Visible = false;
-            tab3.Visible = false;
             tab4.Visible = false;
             tab5.Visible = false;
             tab6.Visible = false;
@@ -48,9 +47,6 @@ namespace Pharmacy
                                 break;
                         case "tab2":
                                 tab2.Visible = true;
-                                break;
-                        case "tab3":
-                                tab3.Visible = true;
                                 break;
                         case "tab4":
                                 tab4.Visible = true;
@@ -170,15 +166,7 @@ namespace Pharmacy
             frm.Show();
         }
 
-        private void btnKhuyenMai_Click(object sender, EventArgs e)
-        {
-            if (this.ActiveMdiChild != null)
-                this.ActiveMdiChild.Close();
-            QuanLy.frmKhuyenMai frm = new QuanLy.frmKhuyenMai();
-            frm.MdiParent = this;
-            frm.Show();
-        }
-
+      
         private void btnHeSo_Click(object sender, EventArgs e)
         {
             if (this.ActiveMdiChild != null)
@@ -211,16 +199,7 @@ namespace Pharmacy
          
         }
 
-        private void btnPhieuThu_Click(object sender, EventArgs e)
-        {
-            if (this.ActiveMdiChild != null)
-                this.ActiveMdiChild.Close();
-            ThuChi.frmPhieuThu frm = new ThuChi.frmPhieuThu();
-            frm.MdiParent = this;
-            frm.Show();
-
-        }
-
+      
         private void btnPhanQuyen_Click(object sender, EventArgs e)
         {
             if (this.ActiveMdiChild != null)
@@ -301,20 +280,7 @@ namespace Pharmacy
             frm.Show();
         }
 
-        private void bntPhieuChi_Click(object sender, EventArgs e)
-        {
-            if (this.ActiveMdiChild != null)
-                this.ActiveMdiChild.Close();
-            ThuChi.frmPhieuChi frm = new ThuChi.frmPhieuChi();
-            frm.MdiParent = this;
-            frm.Show();
-        }
-
-        private void tab7_Click(object sender, EventArgs e)
-        {
-
-        }
-
+       
         private void btnLuTru_Click(object sender, EventArgs e)
         {
             if (this.ActiveMdiChild != null)
@@ -324,14 +290,7 @@ namespace Pharmacy
             frm.Show();
         }
 
-        private void tab3btnNhacNho_Click(object sender, EventArgs e)
-        {
-
-           ThuChi.frmCongNo frm = new ThuChi.frmCongNo();
-            frm.MdiParent = this;
-            frm.Show();
-        }
-
+     
         private void tab4cmdTonKho_Click(object sender, EventArgs e)
         {
             BaoCao.frmTonKho frm = new BaoCao.frmTonKho();
@@ -364,6 +323,8 @@ namespace Pharmacy
             QuanLy.frmKho frm = new QuanLy.frmKho();
             frm.ShowDialog();
         }
+
+
   
 
      
