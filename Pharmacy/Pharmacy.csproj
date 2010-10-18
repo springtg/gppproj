@@ -930,6 +930,15 @@
     <Content Include="LogoCV.ico" />
     <Content Include="logoMTMoi.ico" />
     <None Include="Resources\nurse-icon.png" />
+    <None Include="Resources\pills-5-icon.png" />
+    <None Include="Resources\OS9-folder-icon.png" />
+    <None Include="Resources\OSX-folder-icon.png" />
+    <None Include="Resources\OS-9-icon.png" />
+    <None Include="Resources\botiquin-icon.png" />
+    <None Include="Resources\casa-icon.png" />
+    <None Include="Resources\people-icon.png" />
+    <None Include="Resources\Drug-basket-icon.png" />
+    <None Include="Resources\red-cross-icon.png" />
     <Content Include="TRIAL\TrialMaker\LockUsage.txt" />
     <None Include="BaoCao\ds\dsSo.xsc">
       <DependentUpon>dsSo.xsd</DependentUpon>

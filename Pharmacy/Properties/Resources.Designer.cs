@@ -60,6 +60,27 @@ namespace Pharmacy.Properties {
             }
         }
         
+        internal static System.Drawing.Bitmap botiquin_icon {
+            get {
+                object obj = ResourceManager.GetObject("botiquin-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap casa_icon {
+            get {
+                object obj = ResourceManager.GetObject("casa-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap Drug_basket_icon {
+            get {
+                object obj = ResourceManager.GetObject("Drug-basket-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
         internal static System.Drawing.Bitmap find {
             get {
                 object obj = ResourceManager.GetObject("find", resourceCulture);
@@ -84,6 +105,48 @@ namespace Pharmacy.Properties {
         internal static System.Drawing.Bitmap nurse_icon {
             get {
                 object obj = ResourceManager.GetObject("nurse-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap OS_9_icon {
+            get {
+                object obj = ResourceManager.GetObject("OS-9-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap OS9_folder_icon {
+            get {
+                object obj = ResourceManager.GetObject("OS9-folder-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap OSX_folder_icon {
+            get {
+                object obj = ResourceManager.GetObject("OSX-folder-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap people_icon {
+            get {
+                object obj = ResourceManager.GetObject("people-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap pills_5_icon {
+            get {
+                object obj = ResourceManager.GetObject("pills-5-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap red_cross_icon {
+            get {
+                object obj = ResourceManager.GetObject("red-cross-icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
