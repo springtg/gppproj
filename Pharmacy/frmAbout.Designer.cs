@@ -136,7 +136,6 @@
             // 
             // panel1
             // 
-            this.panel1.BackgroundImage = global::Pharmacy.Properties.Resources.LOGO2__copy1;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 32);

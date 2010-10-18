@@ -861,7 +861,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="bin\Debug\App.config" />
-    <None Include="Resources\bg.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="BaoCao\dsXuatNew.xsc">
@@ -925,18 +924,12 @@
     <None Include="BaoCao\ds\dsTheKho.xss">
       <DependentUpon>dsTheKho.xsd</DependentUpon>
     </None>
-    <None Include="Resources\2new copy.png" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="LogoCauVong.ico" />
-    <None Include="Resources\LOGO2_ copy.png" />
-    <None Include="Resources\LOGO2_ copy1.png" />
-    <None Include="Resources\LOGO2.jpg" />
-    <None Include="Resources\PM NEWSUN.jpg" />
     <Content Include="LogoCV.ico" />
     <Content Include="logoMTMoi.ico" />
-    <None Include="Resources\NEN NS.jpg" />
-    <None Include="Resources\home_48.png" />
+    <None Include="Resources\nurse-icon.png" />
     <Content Include="TRIAL\TrialMaker\LockUsage.txt" />
     <None Include="BaoCao\ds\dsSo.xsc">
       <DependentUpon>dsSo.xsd</DependentUpon>
@@ -971,20 +964,7 @@
     <None Include="NhapXuat\Info\dsHoaDon.xss">
       <DependentUpon>dsHoaDon.xsd</DependentUpon>
     </None>
-    <None Include="Resources\+1.png" />
-    <None Include="Resources\NSX.png" />
-    <None Include="Resources\NCC1.png" />
-    <None Include="Resources\7112.png" />
-    <None Include="Resources\Congno.png" />
-    <None Include="Resources\chi.png" />
-    <None Include="Resources\Thu.png" />
-    <None Include="Resources\%284992%29.png" />
-    <None Include="Resources\tevx.png" />
-    <None Include="Resources\tevNhap.png" />
     <None Include="Resources\tev.png" />
-    <None Include="Resources\Nut.png" />
-    <None Include="Resources\cauvonglogin2.png" />
-    <None Include="Resources\GIAO DIEN CAU VONG.jpg" />
     <None Include="BaoCao\ds\dstonghopthu.xsc">
       <DependentUpon>dstonghopthu.xsd</DependentUpon>
     </None>
@@ -1003,7 +983,6 @@
     <None Include="BaoCao\ds\dstonghopthuhchi.xss">
       <DependentUpon>dstonghopthuhchi.xsd</DependentUpon>
     </None>
-    <None Include="Resources\logo.png" />
     <None Include="BaoCao\ds\dsDoanhthubanhang.xsc">
       <DependentUpon>dsDoanhthubanhang.xsd</DependentUpon>
     </None>
@@ -1048,19 +1027,9 @@
     <None Include="BaoCao\ds\dstheodoicongno.xss">
       <DependentUpon>dstheodoicongno.xsd</DependentUpon>
     </None>
-    <None Include="Resources\save.png" />
-    <None Include="Resources\seting.png" />
     <None Include="Resources\find.png" />
-    <None Include="Resources\filemgmt.png" />
-    <None Include="Resources\oobefldr.dll_I0004_0409.png" />
-    <None Include="Resources\networkexplorer.dll_I006b_0409.png" />
-    <None Include="Resources\stop32.png" />
     <None Include="Resources\Logoutauto32.png" />
-    <None Include="Resources\Login_Icon32.png" />
     <None Include="Resources\logout32.png" />
-    <None Include="Resources\quick_restart16.png" />
-    <None Include="Resources\KC1.png" />
-    <None Include="Resources\KC.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
