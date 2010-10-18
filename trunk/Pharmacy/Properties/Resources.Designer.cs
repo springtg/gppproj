@@ -60,37 +60,9 @@ namespace Pharmacy.Properties {
             }
         }
         
-        internal static System.Drawing.Bitmap cauvonglogin2 {
-            get {
-                object obj = ResourceManager.GetObject("cauvonglogin2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
         internal static System.Drawing.Bitmap find {
             get {
                 object obj = ResourceManager.GetObject("find", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap LOGO2 {
-            get {
-                object obj = ResourceManager.GetObject("LOGO2", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap LOGO2__copy {
-            get {
-                object obj = ResourceManager.GetObject("LOGO2_ copy", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        internal static System.Drawing.Bitmap LOGO2__copy1 {
-            get {
-                object obj = ResourceManager.GetObject("LOGO2_ copy1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -105,6 +77,13 @@ namespace Pharmacy.Properties {
         internal static System.Drawing.Bitmap Logoutauto32 {
             get {
                 object obj = ResourceManager.GetObject("Logoutauto32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        internal static System.Drawing.Bitmap nurse_icon {
+            get {
+                object obj = ResourceManager.GetObject("nurse-icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
