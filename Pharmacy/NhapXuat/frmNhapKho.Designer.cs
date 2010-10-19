@@ -55,23 +55,23 @@
             this.dpkNgaySX = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
             this.cmdNuonSX = new DevComponents.DotNetBar.Controls.ComboBoxEx();
             this.lvHD = new DevComponents.DotNetBar.Controls.ListViewEx();
-            this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader3 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader4 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader5 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader6 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader15 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader15 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.lvCTHD = new DevComponents.DotNetBar.Controls.ListViewEx();
-            this.columnHeader7 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader8 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader9 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader10 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader11 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader12 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader13 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader14 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader16 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader8 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader13 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader14 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader16 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.panel3 = new System.Windows.Forms.Panel();
             this.buttonX1 = new DevComponents.DotNetBar.ButtonX();
             this.dpkDateHD = new DevComponents.Editors.DateTimeAdv.DateTimeInput();
@@ -300,9 +300,9 @@
             this.txtDonGiaNhap.BackgroundStyle.Class = "DateTimeInputBackground";
             this.txtDonGiaNhap.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
             this.txtDonGiaNhap.FocusHighlightEnabled = true;
-            this.txtDonGiaNhap.Increment = 1;
+            this.txtDonGiaNhap.Increment = 1D;
             this.txtDonGiaNhap.Location = new System.Drawing.Point(437, 112);
-            this.txtDonGiaNhap.MinValue = 0;
+            this.txtDonGiaNhap.MinValue = 0D;
             this.txtDonGiaNhap.Name = "txtDonGiaNhap";
             this.txtDonGiaNhap.ShowUpDown = true;
             this.txtDonGiaNhap.Size = new System.Drawing.Size(182, 24);
@@ -678,7 +678,7 @@
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel4.BackColor = System.Drawing.Color.Silver;
             this.panel4.Controls.Add(this.buttonX3);
             this.panel4.Controls.Add(this.cmdXoaCT);
             this.panel4.Controls.Add(this.cmdThemCT);
@@ -714,7 +714,7 @@
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel5.BackColor = System.Drawing.Color.Silver;
             this.panel5.Controls.Add(this.cmdTaoMoi);
             this.panel5.Controls.Add(this.buttonX6);
             this.panel5.Controls.Add(this.buttonX4);
@@ -837,7 +837,7 @@
             this.groupPanel1.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
             this.groupPanel1.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
             this.groupPanel1.TabIndex = 1;
-            this.groupPanel1.Text = "CHI TIẾT HÓA ĐƠN";
+            this.groupPanel1.Text = "THÔNG TIN CHI TIẾT";
             // 
             // txtCK
             // 
@@ -847,9 +847,9 @@
             this.txtCK.BackgroundStyle.Class = "DateTimeInputBackground";
             this.txtCK.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
             this.txtCK.FocusHighlightEnabled = true;
-            this.txtCK.Increment = 1;
+            this.txtCK.Increment = 1D;
             this.txtCK.Location = new System.Drawing.Point(769, 55);
-            this.txtCK.MinValue = 0;
+            this.txtCK.MinValue = 0D;
             this.txtCK.Name = "txtCK";
             this.txtCK.ShowUpDown = true;
             this.txtCK.Size = new System.Drawing.Size(149, 24);
@@ -1231,7 +1231,7 @@
             this.groupPanel2.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
             this.groupPanel2.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
             this.groupPanel2.TabIndex = 0;
-            this.groupPanel2.Text = "HÓA ĐƠN";
+            this.groupPanel2.Text = "THÔNG TIN HÓA ĐƠN";
             // 
             // txtCO
             // 
@@ -1295,13 +1295,13 @@
             this.txtTyGia.BackgroundStyle.Class = "DateTimeInputBackground";
             this.txtTyGia.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
             this.txtTyGia.FocusHighlightEnabled = true;
-            this.txtTyGia.Increment = 1;
+            this.txtTyGia.Increment = 1D;
             this.txtTyGia.Location = new System.Drawing.Point(437, 54);
             this.txtTyGia.Name = "txtTyGia";
             this.txtTyGia.ShowUpDown = true;
             this.txtTyGia.Size = new System.Drawing.Size(182, 24);
             this.txtTyGia.TabIndex = 9;
-            this.txtTyGia.Value = 1;
+            this.txtTyGia.Value = 1D;
             // 
             // labelX18
             // 
@@ -1362,6 +1362,7 @@
             this.Controls.Add(this.groupPanel2);
             this.Controls.Add(this.groupPanel1);
             this.Controls.Add(this.panel3);
+            this.DoubleBuffered = true;
             this.KeyPreview = true;
             this.Name = "frmNhapKho";
             this.Text = "Nhập hàng hóa";
