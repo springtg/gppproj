@@ -40,6 +40,7 @@ namespace Pharmacy
                     maTDV = int.Parse(dt.Rows[0]["MA"].ToString());
                     tenDN = dt.Rows[0]["TEN"].ToString();
                     this.Hide();
+
                     frmMain frm = new frmMain();
                     frm.Show(this, maTDV, tenDN);
                     frm.FormClosed += new FormClosedEventHandler(frm_FormClosed);

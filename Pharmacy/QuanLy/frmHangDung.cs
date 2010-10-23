@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
+using BrightIdeasSoftware;
 
 namespace Pharmacy.QuanLy
 {
@@ -69,7 +70,7 @@ namespace Pharmacy.QuanLy
         {
             try
             {
-                HH = tHH.GetHanDung();
+                DataTable HH = tHH.GetSL();
                 if (HH != null)
                 {
                     listSL.Items.Clear();
@@ -89,6 +90,25 @@ namespace Pharmacy.QuanLy
             {
                 TLog.WriteErr("frmNSX_loadnsx", ex.Message + "|" + ex.StackTrace);
             }
+        }
+      
+        private void cmdDn_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void bntPrintHD_Click(object sender, EventArgs e)
+        {
+            ListViewPrinter pr = new ListViewPrinter("THỐNG KÊ HẠN DÙNG HÀNG HÓA");
+            pr.ListView = lvhanghoa;
+            pr.PrintPreview();
+        }
+
+        private void bntPrintSL_Click(object sender, EventArgs e)
+        {
+            ListViewPrinter pr = new ListViewPrinter("THỐNG KÊ SỐ LƯỢNG HÀNG HÓA");
+            pr.ListView = listSL;
+            pr.PrintPreview();
         }
      }
 }

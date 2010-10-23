@@ -59,16 +59,16 @@
             this.comboItem1 = new DevComponents.Editors.ComboItem();
             this.comboItem2 = new DevComponents.Editors.ComboItem();
             this.lvhanghoa = new DevComponents.DotNetBar.Controls.ListViewEx();
-            this.columnHeader7 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader9 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader10 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader3 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader11 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader12 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader13 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader14 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader13 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader14 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.groupPanel1 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.groupPanel2.SuspendLayout();
             this.panel5.SuspendLayout();
@@ -170,6 +170,7 @@
             // 
             // 
             this.txt_ma.Border.Class = "TextBoxBorder";
+            this.txt_ma.FocusHighlightColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.txt_ma.FocusHighlightEnabled = true;
             this.txt_ma.Location = new System.Drawing.Point(98, 17);
             this.txt_ma.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
@@ -201,7 +202,7 @@
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel5.BackColor = System.Drawing.Color.Silver;
             this.panel5.Controls.Add(this.cmdInDS);
             this.panel5.Controls.Add(this.buttonX6);
             this.panel5.Controls.Add(this.buttonX4);
@@ -216,7 +217,7 @@
             // cmdInDS
             // 
             this.cmdInDS.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.cmdInDS.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.cmdInDS.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.cmdInDS.Enabled = false;
             this.cmdInDS.Location = new System.Drawing.Point(589, 2);
             this.cmdInDS.Margin = new System.Windows.Forms.Padding(0);
@@ -229,7 +230,7 @@
             // buttonX6
             // 
             this.buttonX6.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX6.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.buttonX6.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.buttonX6.Location = new System.Drawing.Point(411, 2);
             this.buttonX6.Margin = new System.Windows.Forms.Padding(0);
             this.buttonX6.Name = "buttonX6";
@@ -241,7 +242,7 @@
             // buttonX4
             // 
             this.buttonX4.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX4.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.buttonX4.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.buttonX4.Enabled = false;
             this.buttonX4.Location = new System.Drawing.Point(500, 2);
             this.buttonX4.Margin = new System.Windows.Forms.Padding(0);
@@ -254,7 +255,7 @@
             // buttonX5
             // 
             this.buttonX5.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX5.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.buttonX5.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.buttonX5.Location = new System.Drawing.Point(323, 2);
             this.buttonX5.Margin = new System.Windows.Forms.Padding(0);
             this.buttonX5.Name = "buttonX5";
@@ -287,7 +288,7 @@
             this.cmb_loai.Name = "cmb_loai";
             this.cmb_loai.Size = new System.Drawing.Size(190, 24);
             this.cmb_loai.TabIndex = 3;
-                       this.cmb_loai.SelectedIndexChanged += new System.EventHandler(this.cmb_loai_SelectedIndexChanged);
+            this.cmb_loai.SelectedIndexChanged += new System.EventHandler(this.cmb_loai_SelectedIndexChanged);
             // 
             // comboItem3
             // 
@@ -566,6 +567,7 @@
             this.ClientSize = new System.Drawing.Size(1019, 626);
             this.Controls.Add(this.groupPanel1);
             this.Controls.Add(this.groupPanel2);
+            this.DoubleBuffered = true;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmHangHoa";
             this.Text = "Quản lý hàng hóa";

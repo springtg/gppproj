@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 using DevComponents.DotNetBar;
+using Pharmacy.QuanLy;
 
 namespace Pharmacy
 {
@@ -14,6 +15,8 @@ namespace Pharmacy
         public frmMain()
         {
             InitializeComponent();
+            frmHangDung frm = new frmHangDung();
+            frm.ShowDialog();
         }
         BLL.TLogin tlogin = new BLL.TLogin();
         private DataTable LayQuyen(int _maTDV)

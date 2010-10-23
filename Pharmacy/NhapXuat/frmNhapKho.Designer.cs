@@ -232,7 +232,7 @@
             // cmdThemCT
             // 
             this.cmdThemCT.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.cmdThemCT.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.cmdThemCT.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.cmdThemCT.Location = new System.Drawing.Point(1, 1);
             this.cmdThemCT.Margin = new System.Windows.Forms.Padding(0);
             this.cmdThemCT.Name = "cmdThemCT";
@@ -614,7 +614,7 @@
             // buttonX1
             // 
             this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.buttonX1.Location = new System.Drawing.Point(198, 220);
             this.buttonX1.Margin = new System.Windows.Forms.Padding(0);
             this.buttonX1.Name = "buttonX1";
@@ -691,7 +691,7 @@
             // buttonX3
             // 
             this.buttonX3.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX3.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.buttonX3.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.buttonX3.Location = new System.Drawing.Point(194, 1);
             this.buttonX3.Margin = new System.Windows.Forms.Padding(0);
             this.buttonX3.Name = "buttonX3";
@@ -703,7 +703,7 @@
             // cmdXoaCT
             // 
             this.cmdXoaCT.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.cmdXoaCT.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.cmdXoaCT.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.cmdXoaCT.Location = new System.Drawing.Point(97, 1);
             this.cmdXoaCT.Margin = new System.Windows.Forms.Padding(0);
             this.cmdXoaCT.Name = "cmdXoaCT";
@@ -728,7 +728,7 @@
             // cmdTaoMoi
             // 
             this.cmdTaoMoi.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.cmdTaoMoi.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.cmdTaoMoi.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.cmdTaoMoi.Location = new System.Drawing.Point(0, 1);
             this.cmdTaoMoi.Margin = new System.Windows.Forms.Padding(0);
             this.cmdTaoMoi.Name = "cmdTaoMoi";
@@ -740,7 +740,7 @@
             // buttonX6
             // 
             this.buttonX6.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX6.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.buttonX6.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.buttonX6.Location = new System.Drawing.Point(198, 1);
             this.buttonX6.Margin = new System.Windows.Forms.Padding(0);
             this.buttonX6.Name = "buttonX6";
@@ -752,7 +752,7 @@
             // buttonX4
             // 
             this.buttonX4.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX4.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.buttonX4.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.buttonX4.Location = new System.Drawing.Point(99, 1);
             this.buttonX4.Margin = new System.Windows.Forms.Padding(0);
             this.buttonX4.Name = "buttonX4";
@@ -764,7 +764,7 @@
             // cmdThemHD
             // 
             this.cmdThemHD.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.cmdThemHD.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.cmdThemHD.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.cmdThemHD.Location = new System.Drawing.Point(0, 1);
             this.cmdThemHD.Margin = new System.Windows.Forms.Padding(0);
             this.cmdThemHD.Name = "cmdThemHD";

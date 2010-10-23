@@ -38,14 +38,17 @@
             this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader17 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.groupPanel2 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.listSL = new DevComponents.DotNetBar.Controls.ListViewEx();
             this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader16 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader17 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader18 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.cmdDn = new DevComponents.DotNetBar.ButtonX();
+            this.bntPrintHD = new DevComponents.DotNetBar.ButtonX();
+            this.bntPrintSL = new DevComponents.DotNetBar.ButtonX();
             this.groupPanel1.SuspendLayout();
             this.groupPanel2.SuspendLayout();
             this.SuspendLayout();
@@ -56,10 +59,11 @@
             this.groupPanel1.BackColor = System.Drawing.Color.Transparent;
             this.groupPanel1.CanvasColor = System.Drawing.SystemColors.Control;
             this.groupPanel1.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel1.Controls.Add(this.bntPrintHD);
             this.groupPanel1.Controls.Add(this.lvhanghoa);
-            this.groupPanel1.Location = new System.Drawing.Point(0, 38);
+            this.groupPanel1.Location = new System.Drawing.Point(10, 38);
             this.groupPanel1.Name = "groupPanel1";
-            this.groupPanel1.Size = new System.Drawing.Size(907, 217);
+            this.groupPanel1.Size = new System.Drawing.Size(907, 237);
             // 
             // 
             // 
@@ -148,16 +152,21 @@
             this.columnHeader5.Text = "Số lượng";
             this.columnHeader5.Width = 87;
             // 
+            // columnHeader17
+            // 
+            this.columnHeader17.Text = "DVT";
+            // 
             // groupPanel2
             // 
             this.groupPanel2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.groupPanel2.BackColor = System.Drawing.Color.Transparent;
             this.groupPanel2.CanvasColor = System.Drawing.SystemColors.Control;
             this.groupPanel2.ColorSchemeStyle = DevComponents.DotNetBar.eDotNetBarStyle.Office2007;
+            this.groupPanel2.Controls.Add(this.bntPrintSL);
             this.groupPanel2.Controls.Add(this.listSL);
-            this.groupPanel2.Location = new System.Drawing.Point(0, 268);
+            this.groupPanel2.Location = new System.Drawing.Point(10, 281);
             this.groupPanel2.Name = "groupPanel2";
-            this.groupPanel2.Size = new System.Drawing.Size(895, 217);
+            this.groupPanel2.Size = new System.Drawing.Size(907, 245);
             // 
             // 
             // 
@@ -222,18 +231,60 @@
             this.columnHeader16.Text = "Số lượng";
             this.columnHeader16.Width = 113;
             // 
-            // columnHeader17
-            // 
-            this.columnHeader17.Text = "DVT";
-            // 
             // columnHeader18
             // 
             this.columnHeader18.Text = "DVT";
             this.columnHeader18.Width = 113;
             // 
+            // cmdDn
+            // 
+            this.cmdDn.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.cmdDn.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
+            this.cmdDn.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdDn.ForeColor = System.Drawing.Color.White;
+            this.cmdDn.Location = new System.Drawing.Point(415, 529);
+            this.cmdDn.Margin = new System.Windows.Forms.Padding(0);
+            this.cmdDn.Name = "cmdDn";
+            this.cmdDn.Size = new System.Drawing.Size(146, 27);
+            this.cmdDn.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2010;
+            this.cmdDn.TabIndex = 77;
+            this.cmdDn.Text = "Vào chương trình";
+            this.cmdDn.Click += new System.EventHandler(this.cmdDn_Click);
+            // 
+            // bntPrintHD
+            // 
+            this.bntPrintHD.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.bntPrintHD.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
+            this.bntPrintHD.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntPrintHD.ForeColor = System.Drawing.Color.White;
+            this.bntPrintHD.Location = new System.Drawing.Point(10, 183);
+            this.bntPrintHD.Margin = new System.Windows.Forms.Padding(0);
+            this.bntPrintHD.Name = "bntPrintHD";
+            this.bntPrintHD.Size = new System.Drawing.Size(94, 27);
+            this.bntPrintHD.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2010;
+            this.bntPrintHD.TabIndex = 78;
+            this.bntPrintHD.Text = "In";
+            this.bntPrintHD.Click += new System.EventHandler(this.bntPrintHD_Click);
+            // 
+            // bntPrintSL
+            // 
+            this.bntPrintSL.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.bntPrintSL.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
+            this.bntPrintSL.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bntPrintSL.ForeColor = System.Drawing.Color.White;
+            this.bntPrintSL.Location = new System.Drawing.Point(10, 183);
+            this.bntPrintSL.Margin = new System.Windows.Forms.Padding(0);
+            this.bntPrintSL.Name = "bntPrintSL";
+            this.bntPrintSL.Size = new System.Drawing.Size(94, 27);
+            this.bntPrintSL.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2010;
+            this.bntPrintSL.TabIndex = 79;
+            this.bntPrintSL.Text = "In";
+            this.bntPrintSL.Click += new System.EventHandler(this.bntPrintSL_Click);
+            // 
             // frmHangDung
             // 
-            this.ClientSize = new System.Drawing.Size(907, 502);
+            this.ClientSize = new System.Drawing.Size(926, 560);
+            this.Controls.Add(this.cmdDn);
             this.Controls.Add(this.groupPanel2);
             this.Controls.Add(this.groupPanel1);
             this.DoubleBuffered = true;
@@ -242,6 +293,7 @@
             this.Load += new System.EventHandler(this.frmNSX_Load);
             this.Controls.SetChildIndex(this.groupPanel1, 0);
             this.Controls.SetChildIndex(this.groupPanel2, 0);
+            this.Controls.SetChildIndex(this.cmdDn, 0);
             this.groupPanel1.ResumeLayout(false);
             this.groupPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -268,5 +320,8 @@
         private System.Windows.Forms.ColumnHeader columnHeader11;
         private System.Windows.Forms.ColumnHeader columnHeader16;
         private System.Windows.Forms.ColumnHeader columnHeader18;
+        private DevComponents.DotNetBar.ButtonX cmdDn;
+        private DevComponents.DotNetBar.ButtonX bntPrintHD;
+        private DevComponents.DotNetBar.ButtonX bntPrintSL;
     }
 }
