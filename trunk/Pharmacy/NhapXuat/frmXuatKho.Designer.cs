@@ -1123,7 +1123,7 @@
             // cmdHDDon
             // 
             this.cmdHDDon.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.cmdHDDon.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.cmdHDDon.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.cmdHDDon.Location = new System.Drawing.Point(270, 211);
             this.cmdHDDon.Margin = new System.Windows.Forms.Padding(0);
             this.cmdHDDon.Name = "cmdHDDon";
@@ -1135,7 +1135,7 @@
             // buttonX1
             // 
             this.buttonX1.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.buttonX1.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.buttonX1.Location = new System.Drawing.Point(190, 211);
             this.buttonX1.Margin = new System.Windows.Forms.Padding(0);
             this.buttonX1.Name = "buttonX1";
@@ -1199,7 +1199,7 @@
             // 
             // panel4
             // 
-            this.panel4.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel4.BackColor = System.Drawing.Color.Silver;
             this.panel4.Controls.Add(this.buttonX3);
             this.panel4.Controls.Add(this.cmdXoaCT);
             this.panel4.Controls.Add(this.cmdThemCT);
@@ -1212,7 +1212,7 @@
             // buttonX3
             // 
             this.buttonX3.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX3.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.buttonX3.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.buttonX3.Location = new System.Drawing.Point(212, 2);
             this.buttonX3.Margin = new System.Windows.Forms.Padding(0);
             this.buttonX3.Name = "buttonX3";
@@ -1224,7 +1224,7 @@
             // cmdXoaCT
             // 
             this.cmdXoaCT.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.cmdXoaCT.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.cmdXoaCT.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.cmdXoaCT.Location = new System.Drawing.Point(107, 2);
             this.cmdXoaCT.Margin = new System.Windows.Forms.Padding(0);
             this.cmdXoaCT.Name = "cmdXoaCT";
@@ -1236,7 +1236,7 @@
             // cmdThemCT
             // 
             this.cmdThemCT.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.cmdThemCT.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.cmdThemCT.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.cmdThemCT.Location = new System.Drawing.Point(3, 1);
             this.cmdThemCT.Margin = new System.Windows.Forms.Padding(0);
             this.cmdThemCT.Name = "cmdThemCT";
@@ -1302,7 +1302,7 @@
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel5.BackColor = System.Drawing.Color.Silver;
             this.panel5.Controls.Add(this.cmdTaoMoi);
             this.panel5.Controls.Add(this.buttonX6);
             this.panel5.Controls.Add(this.cmdXoaHD);
@@ -1316,7 +1316,7 @@
             // cmdTaoMoi
             // 
             this.cmdTaoMoi.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.cmdTaoMoi.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.cmdTaoMoi.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.cmdTaoMoi.Location = new System.Drawing.Point(1, 1);
             this.cmdTaoMoi.Margin = new System.Windows.Forms.Padding(0);
             this.cmdTaoMoi.Name = "cmdTaoMoi";
@@ -1328,7 +1328,7 @@
             // buttonX6
             // 
             this.buttonX6.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX6.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.buttonX6.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.buttonX6.Location = new System.Drawing.Point(209, 1);
             this.buttonX6.Margin = new System.Windows.Forms.Padding(0);
             this.buttonX6.Name = "buttonX6";
@@ -1340,7 +1340,7 @@
             // cmdXoaHD
             // 
             this.cmdXoaHD.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.cmdXoaHD.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.cmdXoaHD.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.cmdXoaHD.Location = new System.Drawing.Point(105, 1);
             this.cmdXoaHD.Margin = new System.Windows.Forms.Padding(0);
             this.cmdXoaHD.Name = "cmdXoaHD";
@@ -1352,7 +1352,7 @@
             // cmdThemHD
             // 
             this.cmdThemHD.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.cmdThemHD.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.cmdThemHD.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.cmdThemHD.Location = new System.Drawing.Point(1, 1);
             this.cmdThemHD.Margin = new System.Windows.Forms.Padding(0);
             this.cmdThemHD.Name = "cmdThemHD";
@@ -1430,6 +1430,7 @@
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.groupPanel2);
             this.Controls.Add(this.groupPanel1);
+            this.DoubleBuffered = true;
             this.Name = "frmXuatKho";
             this.Text = "Xuất hàng hóa";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;

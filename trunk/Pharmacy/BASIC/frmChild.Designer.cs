@@ -33,6 +33,7 @@ namespace Pharmacy.BASIC
             // 
             // lblTitle
             // 
+            this.lblTitle.BackColor = System.Drawing.Color.Silver;
             this.lblTitle.Dock = System.Windows.Forms.DockStyle.Top;
             this.lblTitle.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitle.ForeColor = System.Drawing.Color.Tomato;
@@ -47,6 +48,7 @@ namespace Pharmacy.BASIC
             // 
             this.ClientSize = new System.Drawing.Size(992, 746);
             this.Controls.Add(this.lblTitle);
+            this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Arial", 11F);
             this.Name = "frmChild";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

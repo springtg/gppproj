@@ -656,6 +656,10 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="QuanLy\frmHangDung.resx">
+      <DependentUpon>frmHangDung.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
     <EmbeddedResource Include="QuanLy\frmKho.resx">
       <DependentUpon>frmKho.cs</DependentUpon>
       <SubType>Designer</SubType>
@@ -739,6 +743,7 @@
     <Compile Include="frmMain.Designer.cs">
       <DependentUpon>frmMain.cs</DependentUpon>
     </Compile>
+    <Compile Include="QuanLy\BLL\THanDung.cs" />
     <Compile Include="QuanLy\BLL\TDonvi.cs" />
     <Compile Include="QuanLy\BLL\TKhachHang.cs" />
     <Compile Include="QuanLy\BLL\TkhuyenMai.cs" />
@@ -750,6 +755,12 @@
     <Compile Include="QuanLy\BLL\TQuyCach.cs" />
     <Compile Include="QuanLy\BLL\TTinhThanh.cs" />
     <Compile Include="QuanLy\BLL\TTonkho.cs" />
+    <Compile Include="QuanLy\frmHangDung.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="QuanLy\frmHangDung.designer.cs">
+      <DependentUpon>frmHangDung.cs</DependentUpon>
+    </Compile>
     <Compile Include="QuanLy\frmKho.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -878,14 +878,14 @@ namespace BrightIdeasSoftware
 
             if (fmtStr == null)
                 return;
-            RectangleF cell = new RectangleF(120, 30, 500, 40);
+            RectangleF cell = new RectangleF(120, 30, 700, 60);
             //////////////////////////////////////////////////////////////////////////////////////////////
             string[] str = { Title };
             fmtStr.Draw(g, cell, str);
 
             this.ListHeaderStringFormat = BlockFormat.ListHeader(14, Brushes.White, false);
             fmtStr = this.ListHeaderStringFormat;
-            cell = new RectangleF(120, 70, 500, 20);
+            cell = new RectangleF(130, 80, 700, 30);
             string[] str1 = { GetDateFormat(DateTime.Now.ToShortDateString()) };
             fmtStr.Draw(g, cell, str1);
         }
