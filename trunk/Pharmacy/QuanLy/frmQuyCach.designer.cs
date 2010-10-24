@@ -30,10 +30,10 @@
         {
             this.groupPanel1 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.lvhanghoa = new DevComponents.DotNetBar.Controls.ListViewEx();
-            this.columnHeader7 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader4 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.groupPanel2 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.txtSL = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.buttonX2 = new DevComponents.DotNetBar.ButtonX();
@@ -89,7 +89,7 @@
             this.groupPanel1.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
             this.groupPanel1.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
             this.groupPanel1.TabIndex = 79;
-            this.groupPanel1.Text = "DANH SÁCH NHÓM CUNG CẤP";
+            this.groupPanel1.Text = "DANH SÁCH QUY CÁCH";
             // 
             // lvhanghoa
             // 
@@ -282,7 +282,7 @@
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel5.BackColor = System.Drawing.Color.Transparent;
             this.panel5.Controls.Add(this.cmbSua);
             this.panel5.Controls.Add(this.cmbXoa);
             this.panel5.Controls.Add(this.buttonX5);
@@ -296,7 +296,7 @@
             // cmbSua
             // 
             this.cmbSua.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.cmbSua.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.cmbSua.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.cmbSua.Location = new System.Drawing.Point(223, 2);
             this.cmbSua.Margin = new System.Windows.Forms.Padding(0);
             this.cmbSua.Name = "cmbSua";
@@ -308,7 +308,7 @@
             // cmbXoa
             // 
             this.cmbXoa.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.cmbXoa.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.cmbXoa.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.cmbXoa.Location = new System.Drawing.Point(305, 2);
             this.cmbXoa.Margin = new System.Windows.Forms.Padding(0);
             this.cmbXoa.Name = "cmbXoa";
@@ -320,7 +320,7 @@
             // buttonX5
             // 
             this.buttonX5.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX5.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.buttonX5.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.buttonX5.Location = new System.Drawing.Point(140, 2);
             this.buttonX5.Margin = new System.Windows.Forms.Padding(0);
             this.buttonX5.Name = "buttonX5";
@@ -355,6 +355,7 @@
             this.ClientSize = new System.Drawing.Size(603, 435);
             this.Controls.Add(this.groupPanel1);
             this.Controls.Add(this.groupPanel2);
+            this.DoubleBuffered = true;
             this.Name = "frmQuyCach";
             this.Load += new System.EventHandler(this.frmQuyCach_Load);
             this.Controls.SetChildIndex(this.groupPanel2, 0);

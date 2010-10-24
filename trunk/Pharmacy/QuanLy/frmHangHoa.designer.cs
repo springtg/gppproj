@@ -36,7 +36,6 @@
             this.labelX3 = new DevComponents.DotNetBar.LabelX();
             this.cmdLoaiHH = new DevComponents.DotNetBar.ButtonX();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.cmdInDS = new DevComponents.DotNetBar.ButtonX();
             this.buttonX6 = new DevComponents.DotNetBar.ButtonX();
             this.buttonX4 = new DevComponents.DotNetBar.ButtonX();
             this.buttonX5 = new DevComponents.DotNetBar.ButtonX();
@@ -202,8 +201,7 @@
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.Silver;
-            this.panel5.Controls.Add(this.cmdInDS);
+            this.panel5.BackColor = System.Drawing.Color.Transparent;
             this.panel5.Controls.Add(this.buttonX6);
             this.panel5.Controls.Add(this.buttonX4);
             this.panel5.Controls.Add(this.buttonX5);
@@ -213,19 +211,6 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(1002, 30);
             this.panel5.TabIndex = 8;
-            // 
-            // cmdInDS
-            // 
-            this.cmdInDS.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.cmdInDS.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
-            this.cmdInDS.Enabled = false;
-            this.cmdInDS.Location = new System.Drawing.Point(589, 2);
-            this.cmdInDS.Margin = new System.Windows.Forms.Padding(0);
-            this.cmdInDS.Name = "cmdInDS";
-            this.cmdInDS.Size = new System.Drawing.Size(70, 27);
-            this.cmdInDS.TabIndex = 55;
-            this.cmdInDS.Text = "In";
-            this.cmdInDS.Click += new System.EventHandler(this.cmdInDS_Click);
             // 
             // buttonX6
             // 
@@ -243,7 +228,6 @@
             // 
             this.buttonX4.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.buttonX4.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
-            this.buttonX4.Enabled = false;
             this.buttonX4.Location = new System.Drawing.Point(500, 2);
             this.buttonX4.Margin = new System.Windows.Forms.Padding(0);
             this.buttonX4.Name = "buttonX4";
@@ -570,7 +554,9 @@
             this.DoubleBuffered = true;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmHangHoa";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý hàng hóa";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmHangHoa_Load);
             this.Controls.SetChildIndex(this.groupPanel2, 0);
             this.Controls.SetChildIndex(this.groupPanel1, 0);
@@ -624,6 +610,5 @@
         private DevComponents.DotNetBar.LabelX labelX4;
         private System.Windows.Forms.ColumnHeader columnHeader2;
         private System.Windows.Forms.ColumnHeader columnHeader3;
-        private DevComponents.DotNetBar.ButtonX cmdInDS;
     }
 }

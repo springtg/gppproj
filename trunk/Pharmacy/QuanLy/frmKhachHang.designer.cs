@@ -30,19 +30,22 @@
         {
             this.groupPanel1 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.lvhanghoa = new DevComponents.DotNetBar.Controls.ListViewEx();
-            this.columnHeader7 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader9 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader5 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader10 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader3 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader11 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader12 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader13 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader14 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader4 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader12 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader13 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader14 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.groupPanel2 = new DevComponents.DotNetBar.Controls.GroupPanel();
+            this.txtHanNo = new DevComponents.Editors.IntegerInput();
+            this.labelX8 = new DevComponents.DotNetBar.LabelX();
+            this.labelX7 = new DevComponents.DotNetBar.LabelX();
             this.labelX6 = new DevComponents.DotNetBar.LabelX();
             this.txtMST = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.txtdienthoai = new DevComponents.DotNetBar.Controls.TextBoxX();
@@ -70,13 +73,10 @@
             this.cmb_tinhthanh = new DevComponents.DotNetBar.Controls.ComboBoxEx();
             this.comboItem1 = new DevComponents.Editors.ComboItem();
             this.comboItem2 = new DevComponents.Editors.ComboItem();
-            this.labelX7 = new DevComponents.DotNetBar.LabelX();
-            this.labelX8 = new DevComponents.DotNetBar.LabelX();
-            this.txtHanNo = new DevComponents.Editors.IntegerInput();
             this.groupPanel1.SuspendLayout();
             this.groupPanel2.SuspendLayout();
-            this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtHanNo)).BeginInit();
+            this.panel5.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupPanel1
@@ -259,6 +259,35 @@
             this.groupPanel2.TabIndex = 0;
             this.groupPanel2.Text = "THÔNG TIN KHÁCH HÀNG";
             // 
+            // txtHanNo
+            // 
+            // 
+            // 
+            // 
+            this.txtHanNo.BackgroundStyle.Class = "DateTimeInputBackground";
+            this.txtHanNo.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
+            this.txtHanNo.Location = new System.Drawing.Point(438, 154);
+            this.txtHanNo.Name = "txtHanNo";
+            this.txtHanNo.ShowUpDown = true;
+            this.txtHanNo.Size = new System.Drawing.Size(80, 24);
+            this.txtHanNo.TabIndex = 87;
+            // 
+            // labelX8
+            // 
+            this.labelX8.Location = new System.Drawing.Point(520, 154);
+            this.labelX8.Name = "labelX8";
+            this.labelX8.Size = new System.Drawing.Size(40, 25);
+            this.labelX8.TabIndex = 86;
+            this.labelX8.Text = "ngày";
+            // 
+            // labelX7
+            // 
+            this.labelX7.Location = new System.Drawing.Point(364, 152);
+            this.labelX7.Name = "labelX7";
+            this.labelX7.Size = new System.Drawing.Size(71, 25);
+            this.labelX7.TabIndex = 84;
+            this.labelX7.Text = "Hạn nợ:";
+            // 
             // labelX6
             // 
             this.labelX6.Location = new System.Drawing.Point(20, 151);
@@ -295,7 +324,7 @@
             // buttonX6
             // 
             this.buttonX6.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX6.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.buttonX6.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.buttonX6.Location = new System.Drawing.Point(408, 199);
             this.buttonX6.Margin = new System.Windows.Forms.Padding(0);
             this.buttonX6.Name = "buttonX6";
@@ -307,7 +336,7 @@
             // buttonX4
             // 
             this.buttonX4.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX4.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.buttonX4.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.buttonX4.Location = new System.Drawing.Point(490, 199);
             this.buttonX4.Margin = new System.Windows.Forms.Padding(0);
             this.buttonX4.Name = "buttonX4";
@@ -319,7 +348,7 @@
             // buttonX5
             // 
             this.buttonX5.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.buttonX5.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.buttonX5.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.buttonX5.Location = new System.Drawing.Point(325, 199);
             this.buttonX5.Margin = new System.Windows.Forms.Padding(0);
             this.buttonX5.Name = "buttonX5";
@@ -391,7 +420,7 @@
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel5.BackColor = System.Drawing.Color.Transparent;
             this.panel5.Controls.Add(this.cmdInDS);
             this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel5.Location = new System.Drawing.Point(0, 197);
@@ -403,7 +432,7 @@
             // cmdInDS
             // 
             this.cmdInDS.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.cmdInDS.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.cmdInDS.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.cmdInDS.Location = new System.Drawing.Point(571, 2);
             this.cmdInDS.Margin = new System.Windows.Forms.Padding(0);
             this.cmdInDS.Name = "cmdInDS";
@@ -527,40 +556,12 @@
             // 
             this.comboItem2.Text = "Trả hàng";
             // 
-            // labelX7
-            // 
-            this.labelX7.Location = new System.Drawing.Point(364, 152);
-            this.labelX7.Name = "labelX7";
-            this.labelX7.Size = new System.Drawing.Size(71, 25);
-            this.labelX7.TabIndex = 84;
-            this.labelX7.Text = "Hạn nợ:";
-            // 
-            // labelX8
-            // 
-            this.labelX8.Location = new System.Drawing.Point(520, 154);
-            this.labelX8.Name = "labelX8";
-            this.labelX8.Size = new System.Drawing.Size(40, 25);
-            this.labelX8.TabIndex = 86;
-            this.labelX8.Text = "ngày";
-            // 
-            // txtHanNo
-            // 
-            // 
-            // 
-            // 
-            this.txtHanNo.BackgroundStyle.Class = "DateTimeInputBackground";
-            this.txtHanNo.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
-            this.txtHanNo.Location = new System.Drawing.Point(438, 154);
-            this.txtHanNo.Name = "txtHanNo";
-            this.txtHanNo.ShowUpDown = true;
-            this.txtHanNo.Size = new System.Drawing.Size(80, 24);
-            this.txtHanNo.TabIndex = 87;
-            // 
             // frmKhachHang
             // 
             this.ClientSize = new System.Drawing.Size(897, 577);
             this.Controls.Add(this.groupPanel1);
             this.Controls.Add(this.groupPanel2);
+            this.DoubleBuffered = true;
             this.Name = "frmKhachHang";
             this.Text = "Quản lý khách hàng";
             this.Load += new System.EventHandler(this.frmKhachHang_Load);
@@ -568,8 +569,8 @@
             this.Controls.SetChildIndex(this.groupPanel1, 0);
             this.groupPanel1.ResumeLayout(false);
             this.groupPanel2.ResumeLayout(false);
-            this.panel5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.txtHanNo)).EndInit();
+            this.panel5.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
