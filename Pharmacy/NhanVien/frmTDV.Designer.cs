@@ -30,16 +30,16 @@
         {
             this.groupPanel1 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.lvTDV = new DevComponents.DotNetBar.Controls.ListViewEx();
-            this.columnHeader7 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader2 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader9 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader5 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader10 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader1 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader4 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader3 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader11 = new System.Windows.Forms.ColumnHeader();
-            this.columnHeader6 = new System.Windows.Forms.ColumnHeader();
+            this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader9 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader10 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader11 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.groupPanel2 = new DevComponents.DotNetBar.Controls.GroupPanel();
             this.txtMK = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.labelX5 = new DevComponents.DotNetBar.LabelX();
@@ -99,7 +99,7 @@
             this.groupPanel1.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
             this.groupPanel1.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
             this.groupPanel1.TabIndex = 77;
-            this.groupPanel1.Text = "DANH SÁCH NHÂN VIÊN";
+            this.groupPanel1.Text = "DANH SÁCH TRINH DƯỢC VIÊN";
             // 
             // lvTDV
             // 
@@ -231,7 +231,7 @@
             this.groupPanel2.Style.TextColorSchemePart = DevComponents.DotNetBar.eColorSchemePart.PanelText;
             this.groupPanel2.Style.TextLineAlignment = DevComponents.DotNetBar.eStyleTextAlignment.Near;
             this.groupPanel2.TabIndex = 0;
-            this.groupPanel2.Text = "THÔNG TIN NHÂN VIÊN";
+            this.groupPanel2.Text = "THÔNG TIN TRÌNH DƯỢC VIÊN";
             // 
             // txtMK
             // 
@@ -385,7 +385,7 @@
             // cmbSua
             // 
             this.cmbSua.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.cmbSua.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.cmbSua.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.cmbSua.Location = new System.Drawing.Point(401, 185);
             this.cmbSua.Margin = new System.Windows.Forms.Padding(0);
             this.cmbSua.Name = "cmbSua";
@@ -397,7 +397,7 @@
             // cmdXoa
             // 
             this.cmdXoa.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.cmdXoa.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.cmdXoa.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.cmdXoa.Location = new System.Drawing.Point(484, 185);
             this.cmdXoa.Margin = new System.Windows.Forms.Padding(0);
             this.cmdXoa.Name = "cmdXoa";
@@ -409,7 +409,7 @@
             // cmdThem
             // 
             this.cmdThem.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.cmdThem.ColorTable = DevComponents.DotNetBar.eButtonColor.Office2007WithBackground;
+            this.cmdThem.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
             this.cmdThem.Location = new System.Drawing.Point(317, 185);
             this.cmdThem.Margin = new System.Windows.Forms.Padding(0);
             this.cmdThem.Name = "cmdThem";
@@ -440,7 +440,7 @@
             // 
             // panel5
             // 
-            this.panel5.BackColor = System.Drawing.Color.SteelBlue;
+            this.panel5.BackColor = System.Drawing.Color.Transparent;
             this.panel5.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.panel5.Location = new System.Drawing.Point(0, 183);
             this.panel5.Margin = new System.Windows.Forms.Padding(0);
@@ -504,8 +504,11 @@
             this.ClientSize = new System.Drawing.Size(912, 556);
             this.Controls.Add(this.groupPanel1);
             this.Controls.Add(this.groupPanel2);
+            this.DoubleBuffered = true;
             this.Name = "frmTDV";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản lý nhân viên";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.frmTDV_Load);
             this.Controls.SetChildIndex(this.groupPanel2, 0);
             this.Controls.SetChildIndex(this.groupPanel1, 0);

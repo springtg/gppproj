@@ -102,7 +102,7 @@ namespace Pharmacy.NhanVien
         {
             LoadTDV();
             dpkNgaySinh.Value = DateTime.Now;
-            SetTitle("QUẢN LÝ NHÂN VIÊN");
+            SetTitle("QUẢN LÝ TRINH DƯỢC VIÊN");
         }
 
         private void cmdThem_Click(object sender, EventArgs e)

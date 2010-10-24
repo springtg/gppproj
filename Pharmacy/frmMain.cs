@@ -172,20 +172,16 @@ namespace Pharmacy
       
         private void btnHeSo_Click(object sender, EventArgs e)
         {
-            if (this.ActiveMdiChild != null)
-                this.ActiveMdiChild.Close();
+
             QuanLy.frmQuyCach frm = new QuanLy.frmQuyCach();
-            frm.MdiParent = this;
-            frm.Show();
+            frm.ShowDialog();
         }
 
         private void btnDonVi_Click(object sender, EventArgs e)
         {
-            if (this.ActiveMdiChild != null)
-                this.ActiveMdiChild.Close();
+
             QuanLy.frmDonvi frm = new QuanLy.frmDonvi();
-            frm.MdiParent = this;
-            frm.Show();
+            frm.ShowDialog();
         }
 
         private void bntDonGia_Click(object sender, EventArgs e)

@@ -60,7 +60,6 @@
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader15 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.lvCTHD = new DevComponents.DotNetBar.Controls.ListViewEx();
             this.columnHeader7 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
@@ -233,7 +232,7 @@
             // 
             this.cmdThemCT.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
             this.cmdThemCT.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
-            this.cmdThemCT.Location = new System.Drawing.Point(1, 1);
+            this.cmdThemCT.Location = new System.Drawing.Point(0, 1);
             this.cmdThemCT.Margin = new System.Windows.Forms.Padding(0);
             this.cmdThemCT.Name = "cmdThemCT";
             this.cmdThemCT.Size = new System.Drawing.Size(90, 27);
@@ -299,6 +298,7 @@
             // 
             this.txtDonGiaNhap.BackgroundStyle.Class = "DateTimeInputBackground";
             this.txtDonGiaNhap.ButtonFreeText.Shortcut = DevComponents.DotNetBar.eShortcut.F2;
+            this.txtDonGiaNhap.DisplayFormat = "#.###";
             this.txtDonGiaNhap.FocusHighlightEnabled = true;
             this.txtDonGiaNhap.Increment = 1D;
             this.txtDonGiaNhap.Location = new System.Drawing.Point(437, 112);
@@ -309,7 +309,6 @@
             this.txtDonGiaNhap.TabIndex = 9;
             this.txtDonGiaNhap.Tag = "140,22";
             this.txtDonGiaNhap.ValueChanged += new System.EventHandler(this.txtDonGiaNhap_ValueChanged);
-            this.txtDonGiaNhap.TabIndexChanged += new System.EventHandler(this.txtDonGiaNhap_TabIndexChanged);
             // 
             // cmbVAT
             // 
@@ -324,7 +323,7 @@
             this.comboItem5});
             this.cmbVAT.Location = new System.Drawing.Point(768, 0);
             this.cmbVAT.Name = "cmbVAT";
-            this.cmbVAT.Size = new System.Drawing.Size(46, 24);
+            this.cmbVAT.Size = new System.Drawing.Size(78, 24);
             this.cmbVAT.TabIndex = 10;
             this.cmbVAT.Tag = "140,22";
             this.cmbVAT.Text = "0";
@@ -485,11 +484,10 @@
             this.columnHeader3,
             this.columnHeader4,
             this.columnHeader5,
-            this.columnHeader6,
             this.columnHeader15});
             this.lvHD.FullRowSelect = true;
             this.lvHD.GridLines = true;
-            this.lvHD.Location = new System.Drawing.Point(3, 32);
+            this.lvHD.Location = new System.Drawing.Point(3, 31);
             this.lvHD.Name = "lvHD";
             this.lvHD.Size = new System.Drawing.Size(361, 177);
             this.lvHD.TabIndex = 48;
@@ -519,14 +517,12 @@
             // columnHeader5
             // 
             this.columnHeader5.Text = "Lý do";
-            // 
-            // columnHeader6
-            // 
-            this.columnHeader6.Text = "Tổng tiền";
+            this.columnHeader5.Width = 108;
             // 
             // columnHeader15
             // 
             this.columnHeader15.Text = "Mã";
+            this.columnHeader15.Width = 0;
             // 
             // lvCTHD
             // 
@@ -552,6 +548,7 @@
             this.lvCTHD.TabIndex = 49;
             this.lvCTHD.UseCompatibleStateImageBehavior = false;
             this.lvCTHD.View = System.Windows.Forms.View.Details;
+            this.lvCTHD.SelectedIndexChanged += new System.EventHandler(this.lvCTHD_SelectedIndexChanged);
             // 
             // columnHeader7
             // 
@@ -698,7 +695,7 @@
             this.buttonX3.Size = new System.Drawing.Size(90, 27);
             this.buttonX3.TabIndex = 54;
             this.buttonX3.Text = "Sửa CT";
-            this.buttonX3.Visible = false;
+            this.buttonX3.Click += new System.EventHandler(this.buttonX3_Click);
             // 
             // cmdXoaCT
             // 
@@ -902,7 +899,7 @@
             // 
             // labelX7
             // 
-            this.labelX7.Location = new System.Drawing.Point(824, 0);
+            this.labelX7.Location = new System.Drawing.Point(852, 0);
             this.labelX7.Name = "labelX7";
             this.labelX7.Size = new System.Drawing.Size(22, 25);
             this.labelX7.TabIndex = 71;
@@ -1421,7 +1418,6 @@
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.ColumnHeader columnHeader5;
-        private System.Windows.Forms.ColumnHeader columnHeader6;
         private DevComponents.DotNetBar.Controls.ListViewEx lvCTHD;
         private System.Windows.Forms.ColumnHeader columnHeader7;
         private System.Windows.Forms.ColumnHeader columnHeader8;
