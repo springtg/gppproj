@@ -28,6 +28,8 @@ namespace Pharmacy.NhapXuat
         double tienhh = 0;
         double tienchuacat = 0;
         double tienchuacatCoCK = 0;
+        int idCTHD;
+        double tienHHBefor;
         public frmXuatKho()
         {
 
@@ -737,6 +739,57 @@ namespace Pharmacy.NhapXuat
         {
             QuanLy.frmKhachHang frm = new QuanLy.frmKhachHang();
             frm.ShowDialog();
+        }
+
+        private void lvCTHD_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+            if (lvCTHD.Items.Count > 0)
+            {
+                int flag = -1;
+                for (int i = 0; i < lvCTHD.Items.Count; i++)
+                {
+                    if (lvCTHD.Items[i].Selected)
+                    {
+                        flag = i;
+                    }
+                }
+                if (flag != -1)
+                {
+                    idCTHD = int.Parse(lvCTHD.Items[flag].SubItems[7].Text);
+                    ShowListCTHDToForm(flag);
+                }
+            }
+        }
+        public void ShowHDToFrom(string id)
+        {
+            HD = tNhapKho.GetHD(id);
+            //txtSoHD.Text = HD.Rows[0]["SOHD"].ToString();
+            //dpkNgayLap.Value = DateTime.ParseExact(HD.Rows[0]["NGAYLAP"].ToString(), "dd/MM/yyyy", null);
+            //dpkNgayNhap.Value = DateTime.ParseExact(HD.Rows[0]["NGAYNHAP"].ToString(), "dd/MM/yyyy", null);
+            //cmbLiDo.Text = HD.Rows[0]["LYDO"].ToString();
+            //txtNguyenNhan.Text = HD.Rows[0]["NGUYENNHAN"].ToString();
+            //cmbNCC.SelectedValue = HD.Rows[0]["MANCC"].ToString();
+            txtTongTien.Text = HD.Rows[0]["TONGTIEN"].ToString();
+        }
+        public void ShowListCTHDToForm(int id)
+        {
+            ChangeInsertCT();
+            cmbLoaiSP.SelectedValue = int.Parse(CTHD.Rows[id]["MALOAISP"].ToString());
+            cmbLoaiSP_SelectedIndexChanged(null, null);
+            cmbLoaiThuoc.SelectedValue = int.Parse(CTHD.Rows[id]["MANHOM"].ToString());
+            cmbLoaiThuoc_SelectedIndexChanged(null, null);
+            cmbTenThuoc.SelectedValue = CTHD.Rows[id]["MAHH"].ToString();
+            cmbTenThuoc_SelectedIndexChanged(null, null);
+            cmbLo.SelectedText= CTHD.Rows[id]["SOLO"].ToString();
+            txtSLban.Text = CTHD.Rows[id]["SOLUONG"].ToString();
+            txtDG.Text = CTHD.Rows[id]["DONGIA"].ToString();
+            txtDG_ValueChanged(null, null);
+            cmbVat.Text = CTHD.Rows[id]["VAT"].ToString();
+            cmbVat_SelectedIndexChanged(null, null);
+            txtCK.Text = CTHD.Rows[id]["CHIETKHAU"].ToString();
+            txtCK_ValueChanged(null, null);
+            tienHHBefor = double.Parse(txtGia.Text);
         }
 
 

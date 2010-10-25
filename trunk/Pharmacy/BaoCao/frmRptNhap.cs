@@ -70,6 +70,7 @@ namespace Pharmacy.BaoCao
             {
                 DataTable dt = tNhap.SetData(tu, den);
                 RPT.rptNhap rpt = new RPT.rptNhap();
+              
                 rpt.SetDataSource(dt);
                 crystalReportViewer1.ReportSource = rpt;
                 crystalReportViewer1.Refresh();

@@ -303,19 +303,7 @@ namespace Pharmacy
             frm.Show();
         }
 
-        private void tabAbout_Click(object sender, EventArgs e)
-        {
-            frmAbout frm = new frmAbout();
    
-            frm.ShowDialog();
-        }
-
-        private void bntAboutCompany_Click(object sender, EventArgs e)
-        {
-            frmAbout frm = new frmAbout();
-            frm.ShowDialog();
-
-        }
 
         private void bntKho_Click(object sender, EventArgs e)
         {
