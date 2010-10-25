@@ -28,16 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.cmdTHoat = new DevComponents.DotNetBar.ButtonX();
+            this.panel1 = new System.Windows.Forms.Panel();
             this.cmdDn = new DevComponents.DotNetBar.ButtonX();
+            this.cmdTHoat = new DevComponents.DotNetBar.ButtonX();
             this.txtUser = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.txtPass = new DevComponents.DotNetBar.Controls.TextBoxX();
             this.labelX2 = new DevComponents.DotNetBar.LabelX();
             this.labelX1 = new DevComponents.DotNetBar.LabelX();
             this.cachedrptXuat1 = new Pharmacy.BaoCao.RPT.CachedrptXuat();
-            this.panel1 = new System.Windows.Forms.Panel();
             this.tableLayoutPanel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -71,20 +72,16 @@
             this.panel2.Size = new System.Drawing.Size(273, 144);
             this.panel2.TabIndex = 1;
             // 
-            // cmdTHoat
+            // panel1
             // 
-            this.cmdTHoat.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
-            this.cmdTHoat.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
-            this.cmdTHoat.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cmdTHoat.ForeColor = System.Drawing.Color.White;
-            this.cmdTHoat.Location = new System.Drawing.Point(142, 5);
-            this.cmdTHoat.Margin = new System.Windows.Forms.Padding(0);
-            this.cmdTHoat.Name = "cmdTHoat";
-            this.cmdTHoat.Size = new System.Drawing.Size(85, 27);
-            this.cmdTHoat.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2010;
-            this.cmdTHoat.TabIndex = 3;
-            this.cmdTHoat.Text = "&Thoát";
-            this.cmdTHoat.Click += new System.EventHandler(this.cmdTHoat_Click);
+            this.panel1.BackColor = System.Drawing.Color.Silver;
+            this.panel1.Controls.Add(this.cmdDn);
+            this.panel1.Controls.Add(this.cmdTHoat);
+            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.panel1.Location = new System.Drawing.Point(0, 107);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(273, 37);
+            this.panel1.TabIndex = 7;
             // 
             // cmdDn
             // 
@@ -100,6 +97,21 @@
             this.cmdDn.TabIndex = 2;
             this.cmdDn.Text = "Đăng &nhập";
             this.cmdDn.Click += new System.EventHandler(this.cmdDn_Click);
+            // 
+            // cmdTHoat
+            // 
+            this.cmdTHoat.AccessibleRole = System.Windows.Forms.AccessibleRole.PushButton;
+            this.cmdTHoat.ColorTable = DevComponents.DotNetBar.eButtonColor.BlueOrb;
+            this.cmdTHoat.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmdTHoat.ForeColor = System.Drawing.Color.White;
+            this.cmdTHoat.Location = new System.Drawing.Point(142, 5);
+            this.cmdTHoat.Margin = new System.Windows.Forms.Padding(0);
+            this.cmdTHoat.Name = "cmdTHoat";
+            this.cmdTHoat.Size = new System.Drawing.Size(85, 27);
+            this.cmdTHoat.Style = DevComponents.DotNetBar.eDotNetBarStyle.Office2010;
+            this.cmdTHoat.TabIndex = 3;
+            this.cmdTHoat.Text = "&Thoát";
+            this.cmdTHoat.Click += new System.EventHandler(this.cmdTHoat_Click);
             // 
             // txtUser
             // 
@@ -145,17 +157,6 @@
             this.labelX1.TabIndex = 4;
             this.labelX1.Text = "Tên đăng nhập:";
             // 
-            // panel1
-            // 
-            this.panel1.BackColor = System.Drawing.Color.Silver;
-            this.panel1.Controls.Add(this.cmdDn);
-            this.panel1.Controls.Add(this.cmdTHoat);
-            this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(0, 107);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(273, 37);
-            this.panel1.TabIndex = 7;
-            // 
             // frmLogin
             // 
             this.BackColor = System.Drawing.Color.White;
@@ -163,6 +164,7 @@
             this.ControlBox = false;
             this.Controls.Add(this.tableLayoutPanel1);
             this.DoubleBuffered = true;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
             this.MaximumSize = new System.Drawing.Size(300, 220);
             this.MinimumSize = new System.Drawing.Size(300, 220);

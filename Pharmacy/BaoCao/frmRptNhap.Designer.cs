@@ -217,7 +217,7 @@
             this.crystalReportViewer1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.crystalReportViewer1.Name = "crystalReportViewer1";
             this.crystalReportViewer1.SelectionFormula = "";
-            this.crystalReportViewer1.Size = new System.Drawing.Size(1019, 584);
+            this.crystalReportViewer1.Size = new System.Drawing.Size(1019, 580);
             this.crystalReportViewer1.TabIndex = 70;
             this.crystalReportViewer1.ViewTimeSelectionFormula = "";
             // 
@@ -425,10 +425,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1019, 746);
+            this.ClientSize = new System.Drawing.Size(1019, 742);
             this.Controls.Add(this.crystalReportViewer1);
             this.Controls.Add(this.panelTheKho);
             this.Controls.Add(this.panelNhapXuat);
+            this.DoubleBuffered = true;
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "frmRptNhap";
             this.Text = "frmRptNhap";

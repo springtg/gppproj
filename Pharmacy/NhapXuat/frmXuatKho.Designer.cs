@@ -1384,6 +1384,7 @@
             this.lvCTHD.TabIndex = 49;
             this.lvCTHD.UseCompatibleStateImageBehavior = false;
             this.lvCTHD.View = System.Windows.Forms.View.Details;
+            this.lvCTHD.SelectedIndexChanged += new System.EventHandler(this.lvCTHD_SelectedIndexChanged);
             // 
             // columnHeader7
             // 
